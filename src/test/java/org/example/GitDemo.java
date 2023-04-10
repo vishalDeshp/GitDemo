@@ -8,5 +8,7 @@ public class GitDemo {
         System.setProperty("webdriver.chrome.driver","F:\\Selenium_Grid_jars\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.rahulshettyacademy.com/");
+        System.out.println(driver.getTitle());
+        System.out.println(driver.getCurrentUrl());
     }
 }
