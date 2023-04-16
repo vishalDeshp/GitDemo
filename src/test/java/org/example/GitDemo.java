@@ -10,5 +10,8 @@ public class GitDemo {
         driver.get("https://www.rahulshettyacademy.com/");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
+
+        GitDemo2 obj = new GitDemo2();
+        obj.newWindow1(driver);
     }
 }
